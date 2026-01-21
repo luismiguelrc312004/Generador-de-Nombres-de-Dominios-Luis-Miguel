@@ -1,11 +1,40 @@
-import "bootstrap";
-import "./style.css";
+let pronoun = ['the', 'our'];
+let adj = ['great', 'big'];
+let noun = ['jogger', 'racoon'];
 
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+    for (let i = 0; i < pronoun.length; i++) {
+        for (let j = 0; j < adj.length; j++) {
+            for (let n = 0; n < noun.length; n++) {
+                console.log(pronoun[i] + adj[j] + noun[n] + ".com")
+        }
+    }
+}
+    for (let i = 0; i < pronoun.length; i++) {
+        for (let j = 0; j < adj.length; j++) {
+            for (let n = 0; n < noun.length; n++) {
+                console.log(pronoun[i] + adj[j] + noun[n] + ".net")
+        }
+    }
+}
+    for (let i = 0; i < pronoun.length; i++) {
+        for (let j = 0; j < adj.length; j++) {
+            for (let n = 0; n < noun.length; n++) {
+                console.log(pronoun[i] + adj[j] + noun[n] + ".us")
+        }
+    }
+}
+    for (let i = 0; i < pronoun.length; i++) {
+        for (let j = 0; j < adj.length; j++) {
+            for (let n = 0; n < noun.length; n++) {
+                console.log(pronoun[i] + adj[j] + noun[n] + ".io")
+        }
+    }
+}
+//Domain hacks
+let palabras =['pued' , 'juguet' , 'inter'];
+let hack =  ['.es' , '.net'];
+    for (let p = 0; p < palabras.length; p++) {
+        for (let h = 0; h < hack.length; h++) {
+            console.log(palabras[p] + hack[h]);
+    }
+}
